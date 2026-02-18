@@ -7,7 +7,7 @@ import io.cucumber.java.en.Then;
 
 public class LoginSteps {
     @Given("the website is opened")
-        public void the_website_is_opened() {
+        public void theWebsiteIsOpened() {
             System.out.println("Application is opened");
         }
     @When("the user click on login page")
